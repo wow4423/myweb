@@ -9,4 +9,9 @@ body {
     font-family: 'ChosunIlboMyungjo', serif;
 }
 
-h1{background-color:  lightcoral;}
+h1{background-color:  lightcoral;
+        }
+
+#header {
+    justify-items: center;
+}
