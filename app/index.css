@@ -9,8 +9,13 @@ body {
     font-family: 'ChosunIlboMyungjo', serif;
 }
 
-h1{background-color:  lightgreen;
-        }
+h1 {
+    background-color: lightgreen;
+}
+
+#dogSound {
+    color: #5a5a5a;
+}
 
 #header {
     justify-items: center;
@@ -26,14 +31,14 @@ form.join-area {
     place-items: center center;
 }
 
-form.join-area > input:not(:last-child) {
+form.join-area>input:not(:last-child) {
     width: 80%;
     height: 45%;
     font-size: 1.1em;
 }
 
-form.join-area > input:last-child {
-    grid-column:  span 2;
+form.join-area>input:last-child {
+    grid-column: span 2;
     width: 80%;
     height: 80%;
     border-radius: 5px;

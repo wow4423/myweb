@@ -14,16 +14,17 @@
 <body>
     <header id="header">
         <h1>[하지 않은 준의 홈페이지]</h1>
-        <h4> - 이건 페이지 만드는 실습레슨 -</h4>
+        <h4> - 26.1.16 페이지 제작 실습 -</h4>
+        <h6 id="dogSound"> "오늘은 금요일, 뭔가 이번 주 굉장히 길었다. 하지만 금욜인 내가 승자 완전 럭키비키두바이쫀득쿠키"</h6>
     </header>
     <hr>
-    <form action="회원가입요청 처리하는 서버" class="join-area">
+    <form action="회원가입요청 처리하는 서버" class="join-area" onsubmit="return handleJoin();">
         <label>아이디</label>
         <input type="text" name="userId" placeholder="아이디 입력해라!!">
         <label>비밀번호</label>
         <input type="password" name="userPw">
         <label>비밀번호 확인</label>
-        <input type="password" name="userPw2" >
+        <input type="password" name="userPw2">
         <label>닉네임</label>
         <input type="text" name="userNick" placeholder="닉네임 입력해라!!">
         <input type="submit" value="회원가입">
